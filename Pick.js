@@ -8,6 +8,6 @@ $(document).ready(function () {
             console.log(image);
             document.getElementById("suit").innerHTML = suit;
             document.getElementById("value").innerHTML = value;
-            document.getElementById("image").scr = image;
+            document.getElementById("image").src = image;
         });
 });
